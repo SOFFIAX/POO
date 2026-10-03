@@ -1,7 +1,7 @@
-import Lapicero_class
-
-Lapicero1 = Lapicero_class.Lapicero("Azul", "1cm", "largo")
-Lapicero2 = Lapicero_class.Lapicero("Morado", "5cm", "pequeño")
-
-Lapicero1.escribir()
-Lapicero2.escribir()
+import Cartas_class
+ 
+Cartas1 = Cartas_class.Cartas("pikachu", "Rojo", 5)
+Cartas2 = Cartas_class.Cartas("frozen", "Azul", 3)
+ 
+Cartas1.apostar()
+Cartas2.apostar()
